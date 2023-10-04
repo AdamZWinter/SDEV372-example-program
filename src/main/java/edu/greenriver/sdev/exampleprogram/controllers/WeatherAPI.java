@@ -18,7 +18,6 @@ import java.util.List;
 @RestController
 @RequestMapping("api/v1")
 public class WeatherAPI {
-
     private WeatherService service;
 
     //The only way to instantiate the controller is if there is a service provided
